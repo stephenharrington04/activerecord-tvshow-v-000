@@ -1,4 +1,4 @@
-class AddSeason < ActiveRecord::Migration[5.1]
+class AddSeason < ActiveRecord::Migration
   def change
     add_column :shows, :season, :string
   end
